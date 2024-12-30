@@ -88,7 +88,7 @@ export const Header = () => {
                                 <li><a href="#"><i className="fa fa-heart" /> <span>1</span></a></li>
                                 <li><a href="/cart"><i className="fa fa-shopping-bag" /> <span>{cart?.length}</span></a></li>
                             </ul>
-                            <div className="header__cart__price">item: <span>${totalPrice}</span></div>
+                            <div className="header__cart__price">item: <span>${totalPrice.toFixed(2)}</span></div>
                         </div>
                     </div>
                 </div>
